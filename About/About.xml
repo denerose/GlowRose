@@ -4,7 +4,7 @@
   <author>Denerose</author>
   <packageId>denerose.GlowRose</packageId> <!-- Common practice to use author name as a namespace to avoid name collision issues -->
 
-  <description>Mod development example</description> <!-- appears in mod list -->
+  <description>Adds a plantable glowing rose. Can be planted in the ground or planters.</description> <!-- appears in mod list -->
 
   <supportedVersions>
     <!-- used by version check warning -->
