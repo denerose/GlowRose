@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="PlantBase">
+    <defName>Plant_GlowRose</defName>
+    <label>glowrose</label>
+    <description>A beautiful bioluminescent flower, genetically engineered to keep Glitterworld elites happy this hardy cultivar was released under a GNU licence and is now found even on Rimworlds.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>18</Beauty>
+      <BeautyOutdoors>20</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(234,153,153,0)</glowColor>
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Plants/GlowRose</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>750</sowWork> <!-- 100 ticks per live day -->
+      <sowTags>
+        <li>Ground</li>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  </Defs>
