@@ -7,7 +7,7 @@
     <description>Assorted glowing berries. Pretty to look at and nice to eat, even when raw.</description>
     <possessionCount>10</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/Berries</texPath>
+      <texPath>Things/Item/Resource/PlantFoodRaw/GlowBerries</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>

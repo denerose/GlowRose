@@ -30,6 +30,9 @@
       <dieIfLeafless>false</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <sowMinSkill>3</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
       <sowWork>750</sowWork> <!-- 100 ticks per live day -->
       <sowTags>
         <li>Ground</li>
@@ -80,6 +83,9 @@
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
       <topWindExposure>0.1</topWindExposure>
       <immatureGraphicPath>Things/Plants/GlowberryPlant_Immature</immatureGraphicPath>
       <visualSizeRange>0.3~1.05</visualSizeRange>
