@@ -61,7 +61,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Glower">
-        <glowRadius>6</glowRadius>
+        <glowRadius>5</glowRadius>
         <glowColor>(159,197,232,0)</glowColor>
       </li>
     </comps>
@@ -92,6 +92,49 @@
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
       <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Darklily</defName>
+    <label>darklily</label>
+    <description>A beautiful glowing darklight flower, cultivated by an exccentric Glitterworlder with a hankering for the mines.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>15</Beauty>
+      <BeautyOutdoors>15</BeautyOutdoors>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(78, 226, 229, 0)</glowColor><!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Plants/Darklily</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>540</sowWork>
+      <sowTags>
+        <li>Ground</li>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
     </plant>
   </ThingDef>
 
