@@ -29,6 +29,7 @@
     <plant>
       <dieIfLeafless>false</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
+      <sowMinSkill>3</sowMinSkill>
       <sowWork>750</sowWork> <!-- 100 ticks per live day -->
       <sowTags>
         <li>Ground</li>
