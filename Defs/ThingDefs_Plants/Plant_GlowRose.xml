@@ -138,4 +138,43 @@
     </plant>
   </ThingDef>
 
+    <ThingDef ParentName="TreeBase">
+    <defName>Plant_TreeShimmerPine</defName>
+    <label>shimmerpine tree</label>
+    <description>A large conifer which has been modified to glow and shimmer and is especially beautiful.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(221, 204, 255, 0)</glowColor>
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Plants/ShimmerPine</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>20</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>20</growDays>
+      <visualSizeRange>1.3~3.0</visualSizeRange>
+      <sowMinSkill>5</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites Inherit="False">
+        <li>TreeSowing</li>
+      </sowResearchPrerequisites>
+      <harvestWork>710</harvestWork>
+      <harvestYield>27</harvestYield>
+      <pollutedGraphicPath>Things/Plant/TreePine_Polluted</pollutedGraphicPath>
+    </plant>
+  </ThingDef>
+
   </Defs>
