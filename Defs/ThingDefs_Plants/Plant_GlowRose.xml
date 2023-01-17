@@ -158,7 +158,7 @@
     </graphicData>
     <statBases>
       <Beauty>20</Beauty>
-      <BeautyOutdoors>2</BeautyOutdoors>
+      <BeautyOutdoors>20</BeautyOutdoors>
     </statBases>
     <ingestible />
     <plant>
@@ -168,9 +168,7 @@
       <sowTags>
         <li>Ground</li>
       </sowTags>
-      <sowResearchPrerequisites Inherit="False">
-        <li>TreeSowing</li>
-      </sowResearchPrerequisites>
+      <mustBeWildToSow>false</mustBeWildToSow>
       <harvestWork>710</harvestWork>
       <harvestYield>27</harvestYield>
       <pollutedGraphicPath>Things/Plant/TreePine_Polluted</pollutedGraphicPath>
