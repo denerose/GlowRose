@@ -162,7 +162,7 @@
     </statBases>
     <ingestible />
     <plant>
-      <growDays>20</growDays>
+      <growDays>50</growDays>
       <visualSizeRange>1.3~3.0</visualSizeRange>
       <sowMinSkill>5</sowMinSkill>
       <sowTags>
