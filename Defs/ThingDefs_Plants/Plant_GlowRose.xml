@@ -70,6 +70,7 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
     <pathCost>14</pathCost>
     <ingestible />
     <plant>
@@ -121,8 +122,9 @@
       <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
     </ingestible>
     <plant>
-      <dieIfLeafless>true</dieIfLeafless>
+      <dieIfLeafless>false</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
+      <harvestAfterGrowth>0.30</harvestAfterGrowth>
       <sowWork>540</sowWork>
       <sowTags>
         <li>Ground</li>
@@ -131,7 +133,6 @@
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.1</topWindExposure>
       <growDays>1.5</growDays>
-      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
       <purpose>Beauty</purpose>
